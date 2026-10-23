@@ -1,9 +1,3 @@
-/*
-javac -cp lib/jade.jar -d bin src/PlayerAgent.java 
-*/
-
-//biarin merah meski bukan dr src
-
 import jade.core.Agent;
 import jade.core.behaviours.*;
 
