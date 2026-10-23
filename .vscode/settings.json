@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "jade.jar",
+        "jadeExamples.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}

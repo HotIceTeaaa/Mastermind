@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Run JADE Agent",
+            "request": "launch",
+            "mainClass": "jade.Boot",
+            "args": "-gui -agents player:PlayerAgent",
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/lib/jade.jar"
+            ],
+        }
+    ]
+}
