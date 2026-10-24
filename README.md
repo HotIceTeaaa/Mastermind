@@ -1,7 +1,7 @@
 # Cara compile:
 
 ```bash 
-javac -cp lib/jade.jar -d bin src/<nama-agent>.java 
+javac -cp lib/jade.jar -d bin src/*.java 
 ```
 
 # Cara Run:
