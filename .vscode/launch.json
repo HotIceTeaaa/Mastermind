@@ -10,7 +10,7 @@
             "name": "Run JADE Agent",
             "request": "launch",
             "mainClass": "jade.Boot",
-            "args": "-gui -agents player:PlayerAgent",
+            "args": "-gui -agents codebreaker:CodebreakerAgent;codemaker:CodemakerAgent",
             "classPaths": [
                 "${workspaceFolder}/bin",
                 "${workspaceFolder}/lib/jade.jar"
